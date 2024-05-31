@@ -1,57 +1,66 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.movie-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.movie-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-}
-
-.movie-item:hover {
-    transform: scale(1.05);
-}
-
-.movie-item img {
-    width: 100%;
-    height: auto;
-}
-
-.movie-info {
-    padding: 10px;
-}
-
-.movie-info h3 {
-    margin: 10px 0 5px;
-    font-size: 18px;
+    background-color:rgb(14, 136, 81) ;
     color: #333;
 }
 
-.movie-info p {
-    margin: 0;
-    font-size: 16px;
-    color: #666;
+header {
+    background-color:navajowhite;
+    color: rgb(4, 4, 79);
+    padding: 20px ;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
+
+h1 {
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.movies-container {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+.movie {
+    background-color:black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+ .movie img {
+    max-width: 500%;
+    border-radius: 5px;
+    height: 300px;
+} 
+
+.movie a {
+    display: block;
+    margin-top: 10px;
+    color:yellow;
+    text-decoration: none;
+}
+
+.footer{
+    background-color:navajowhite;
+    color: rgb(4, 4, 79);
+    padding: 20px ;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
