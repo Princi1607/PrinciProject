@@ -5,91 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Catalogue</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         .navbar-custom {
+            background-color: teal;
+            font-size: 30px;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+            position: relative;
+            left:800px;
+        }
+        .form-control {
+            width: 500px; /* Adjust width of the search bar */
+            height: 50px; /* Adjust height of the search bar */
+            font-size: 20px; /* Adjust font size of the search bar */
+        }
+
+        .btn {
+            height: 50px; /* Adjust height of the button */
+            font-size: 20px; /* Adjust font size of the button */
+        }
+
+        
+        .search-bar-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
+    
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-custom"
+        <a class="navbar-brand" href="#">Movie Catalogue</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+            </ul>
+            
+    </nav>
+    <!-- Search Bar Container -->
+    <div class="search-bar-container">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
     <header>
         <h1>Discover the endless world of Movies with just a click ....</h1>
     </header>
     <main>
+        
         <div class="movies-container">
             <div class="movie">
-                <img src="/movie1.png" alt="Movie 1" height="300px" width="200">
+                <img src="/movie1.png" alt="Movie 1" height="300px" width="200px">
                 <a href="movie1.html">Ra One</a>
             </div>
             <div class="movie">
-                <img src="/movie2.png" alt="Movie 2" height="300px" width="200">
+                <img src="/movie2.png" alt="Movie 2" height="300px" width="200px">
                 <a href="movie2.html">Bodyguard</a>
             </div>
             <div class="movie">
-                <img src="/movie3.png" alt="Movie 3" height="300px" width="200">
+                <img src="/movie3.png" alt="Movie 3" height="300px" width="200px">
                 <a href="movie3.html">Dangal</a>
             </div>
             <div class="movie">
-                <img src="/movie4.png" alt="Movie 4" height="300px" width="200">
+                <img src="/movie4.png" alt="Movie 4" height="300px" width="200px">
                 <a href="movie4.html">Kal Ho Na Ho</a>
             </div>
             <div class="movie">
-                <img src="/movie5.png" alt="Movie 5" height="300px" width="200">
+                <img src="/movie5.png" alt="Movie 5" height="300px" width="200px">
                 <a href="movie5.html">Finding Dory</a>
             </div>
             <div class="movie">
-                <img src="/movie6.png" alt="Movie 6" height="300px" width="200">
+                <img src="/movie6.png" alt="Movie 6" height="300px" width="200px">
                 <a href="movie6.html">Bhaag Milkha Bhaag</a>
             </div>
             <div class="movie">
-                <img src="/movie7.png" alt="Movie 7" height="300px" width="200">
+                <img src="/movie7.png" alt="Movie 7" height="300px" width="200px">
                 <a href="movie7.html">English-Vinglish</a>
             </div>
             <div class="movie">
-                <img src="/movie8.png" alt="Movie 8" height="300px" width="200">
+                <img src="/movie8.png" alt="Movie 8" height="300px" width="200px">
                 <a href="movie8.html">Thappad</a>
             </div>
             <div class="movie">
-                <img src="/movie9.png" alt="Movie 9" height="300px" width="200">
+                <img src="/movie9.png" alt="Movie 9" height="300px" width="200px">
                 <a href="movie9.html">Taare Zameen Par</a>
             </div>
             <div class="movie">
-                <img src="/movie10.png" alt="Movie 10" height="300px" width="200">
+                <img src="/movie10.png" alt="Movie 10" height="300px" width="200px">
                 <a href="movie10.html">Yeh Jawani Hai Deewani</a>
             </div>
             <div class="movie">
-                <img src="/movie11.png" alt="Movie 11" height="300px" width="200">
+                <img src="/movie11.png" alt="Movie 11" height="300px" width="200px">
                 <a href="movie11.html">OMG-2</a>
             </div>
             <div class="movie">
-                <img src="/movie12.png" alt="Movie 12" height="300px" width="200">
+                <img src="/movie12.png" alt="Movie 12" height="300px" width="200px">
                 <a href="movie12.html">Hichki</a>
             </div>
             <div class="movie">
-                <img src="/movie13.png" alt="Movie 13" height="300px" width="200">
+                <img src="/movie13.png" alt="Movie 13" height="300px" width="200px">
                 <a href="movie13.html">Namaste England</a>
             </div>
             <div class="movie">
-                <img src="/movie14.png" alt="Movie 14" height="300px" width="200">
+                <img src="/movie14.png" alt="Movie 14" height="300px" width="200px">
                 <a href="movie14.html">kuch Kuch Hota Hai</a>
             </div>
             <div class="movie">
-                <img src="/movie15.png" alt="Movie 15" height="300px" width="200">
+                <img src="/movie15.png" alt="Movie 15" height="300px" width="200px">
                 <a href="movie15.html">Avengers</a>
             </div>
             <div class="movie">
-                <img src="/movie16.png" alt="Movie 16" height="300px" width="200">
+                <img src="/movie16.png" alt="Movie 16" height="300px" width="200px">
                 <a href="movie16.html">Mission Mangal</a>
             </div>
             <div class="movie">
-                <img src="/movie17.png" alt="Movie 17" height="300px" width="200">
+                <img src="/movie17.png" alt="Movie 17" height="300px" width="200px">
                 <a href="movie17.html">Frozen-II</a>
             </div>
             <div class="movie">
-                <img src="/movie18.png" alt="Movie 18" height="300px" width="200">
+                <img src="/movie18.png" alt="Movie 18" height="300px" width="200px">
                 <a href="movie18.html">Luca</a>
             </div>
             <div class="movie">
-                <img src="/movie19.png" alt="Movie 19" height="300px" width="200">
+                <img src="/movie19.png" alt="Movie 19" height="300px" width="200px">
                 <a href="movie19.html">Cindrella</a>
             </div>
             <div class="movie">
-                <img src="/movie20.png" alt="Movie 20" height="300px" width="200">
+                <img src="/movie20.png" alt="Movie 20" height="300px" width="200px">
                 <a href="movie20.html">Despicable Me2</a>
             </div>
         </div>
